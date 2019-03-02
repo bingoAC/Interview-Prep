@@ -25,7 +25,7 @@
     - **Unsupervised Learning** is where you only have input data (X) and no corresponding output variables.
     The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
     
-    
+    ![image](https://user-images.githubusercontent.com/26676751/53687910-076b8e00-3d09-11e9-8516-d14f8c692287.png)
 
 ### Jupyter Notebook, luigi task and tools Review
 
