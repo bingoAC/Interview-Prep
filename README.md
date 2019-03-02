@@ -16,6 +16,16 @@
 
 ### Data Science Knowledge Review
 
+1. Supervised Learning vs Unsupervised Learning
+
+    - **Supervised Learning** is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output.
+    Y = f(X). 
+    The goal is to approximate the mapping function so well that when you have new input data (x) that you can predict the output variables (Y) for that data.
+
+    - **Unsupervised Learning** is where you only have input data (X) and no corresponding output variables.
+    The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
+    
+    
 
 ### Jupyter Notebook, luigi task and tools Review
 
