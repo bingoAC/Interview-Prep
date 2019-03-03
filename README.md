@@ -18,14 +18,24 @@
 
 1. Supervised Learning vs Unsupervised Learning
 
+    ![image](https://user-images.githubusercontent.com/26676751/53687910-076b8e00-3d09-11e9-8516-d14f8c692287.png)
+
     - **Supervised Learning** is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output.
     Y = f(X). 
     The goal is to approximate the mapping function so well that when you have new input data (x) that you can predict the output variables (Y) for that data.
+    
+        - Common Algorithm:
+            1. **Logistic regression**: is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary). Predictive analysis. Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+                - Type of questions that a binary logistic regression can examine:
+                    - How does the probability of getting lung cancer (yes vs. no) change for every additional pound a person is overweight and for every pack of cigarettes smoked per day?
+                    - Do body weight, calorie intake, fat intake, and age have an influence on the probability of having a heart attack (yes vs. no)?
+            2. **Naive Bayes**: a conditional probability model: given a problem instance to be classified, represented by a vector x = (x1, …, xn) representing some n features (independent variables), it assigns to this instance probabilities for each of K possible outcomes or classes. ![image](https://user-images.githubusercontent.com/26676751/53700513-2b8aa600-3dc1-11e9-9a4b-11e0c4747724.png)
+                ![image](https://user-images.githubusercontent.com/26676751/53700516-40673980-3dc1-11e9-89a5-39654961093e.png)
+                ![image](https://user-images.githubusercontent.com/26676751/53700568-d13e1500-3dc1-11e9-887b-400bb3676d24.png)
+                ![image](https://user-images.githubusercontent.com/26676751/53700612-1d895500-3dc2-11e9-80eb-ae15e3178dd2.png)
 
     - **Unsupervised Learning** is where you only have input data (X) and no corresponding output variables.
     The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
-    
-    ![image](https://user-images.githubusercontent.com/26676751/53687910-076b8e00-3d09-11e9-8516-d14f8c692287.png)
 
 ### Jupyter Notebook, luigi task and tools Review
 
