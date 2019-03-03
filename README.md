@@ -33,9 +33,20 @@
                 ![image](https://user-images.githubusercontent.com/26676751/53700516-40673980-3dc1-11e9-89a5-39654961093e.png)
                 ![image](https://user-images.githubusercontent.com/26676751/53700568-d13e1500-3dc1-11e9-887b-400bb3676d24.png)
                 ![image](https://user-images.githubusercontent.com/26676751/53700612-1d895500-3dc2-11e9-80eb-ae15e3178dd2.png)
+                * Pros
+		            * East & Fast to predict a class of test dataset
+		            * Performs better compared to other models assuming independence
+		            * Performs well in case of categorical input variables compared to numerical variables
+	            * Cons
+                    * Zero Frequency when not observable (add 1)
+		            * Relies on independence assumption and will perform badly if this assumption is not met
+                    
+            3. **Support Vector Machine**
 
     - **Unsupervised Learning** is where you only have input data (X) and no corresponding output variables.
     The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
+    
+    
 
 ### Jupyter Notebook, luigi task and tools Review
 
