@@ -102,6 +102,8 @@
 	- Start implementing the model and track the result to analyze the performance of the model over the period of time
 	
 7. **Central Limit Theorem**: In some situations, when independent random variables are added, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed.
+	![image](https://user-images.githubusercontent.com/26676751/53706774-eb93e500-3df9-11e9-829b-bdfbc6401d29.png)
+
 	![image](https://user-images.githubusercontent.com/26676751/53706539-e2564880-3df8-11e9-8881-1378b013cce1.png)
 
 8. **Law of Large Number**: As the number of identically distributed, randomly generated variables increases, their sample mean (average) approaches their theoretical mean.
