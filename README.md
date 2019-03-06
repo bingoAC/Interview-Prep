@@ -62,6 +62,7 @@
 			* Not as easy to visually interpret
 			* A large number of trees can make the algorithm to slow and ineffective for real-time predictions
 	
+	
     - **Unsupervised Learning** is where you only have input data (X) and no corresponding output variables.
     The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
     
@@ -103,11 +104,35 @@
 	
 7. **Central Limit Theorem**: In some situations, when independent random variables are added, their properly normalized sum tends toward a normal distribution even if the original variables themselves are not normally distributed.
 	![image](https://user-images.githubusercontent.com/26676751/53706774-eb93e500-3df9-11e9-829b-bdfbc6401d29.png)
-
 	![image](https://user-images.githubusercontent.com/26676751/53706539-e2564880-3df8-11e9-8881-1378b013cce1.png)
 
 8. **Law of Large Number**: As the number of identically distributed, randomly generated variables increases, their sample mean (average) approaches their theoretical mean.
 
+
+### Future Trading Challenge
+
+1. Concept:
+
+	- Candlestick chart: 
+	![image](https://user-images.githubusercontent.com/26676751/53826939-cf05c300-3f47-11e9-90e5-b0f811940319.png)
+	
+	- Moving Average Buy & Sell:
+	![image](https://user-images.githubusercontent.com/26676751/53827938-44729300-3f4a-11e9-9733-7ff36cf7b068.png)
+		- Set-up: Fast MA set (5 day & 20 day), Slow MA set (36 day & 90 day)
+		- Simple Move Average (SMA): 
+			![image](https://user-images.githubusercontent.com/26676751/53831624-3d9c4e00-3f53-11e9-8cc4-c93ed3ed2890.png)
+		- Exponential Moving Average (EMA): 
+			![image](https://user-images.githubusercontent.com/26676751/53831697-67ee0b80-3f53-11e9-8a94-da6eeb3f5335.png)
+		- Moving Average Convergence Divergence (MACD): a trend-following momentum indicator that shows the relationship between two moving averages of a security’s price. 
+			- MACD is calculated by subtracting the 26-period EMA from the 12-period EMA
+			- MACD triggers technical signals when it crosses above (to buy) or below (to sell) its signal line.
+			- The speed of crossovers is also taken as a signal of a market being overbought or oversold.
+			- MACD helps investors understand whether bullish or bearish movement in the price is strengthening or weakening.
+		
+	- Open Range Breakout: (By Toby Crabel, 1990 "Day Trading with Short Term Price Patterns")
+		![image](https://user-images.githubusercontent.com/26676751/53831842-c74c1b80-3f53-11e9-84b9-a157ee519471.png)
+		![image](https://user-images.githubusercontent.com/26676751/53831933-fd899b00-3f53-11e9-9514-dc61b0964fff.png)
+	
 	
 
 ### Jupyter Notebook, luigi task and tools Review
